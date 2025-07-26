@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "express": "^5.1.0"
+  },
+  {
+  "name": "ola-mundo-express",
+  "version": "1.0.0",
+  "description": "Aplicação simples Olá Mundo com Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   }
-}
