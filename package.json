@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-  {
   "name": "ola-mundo-express",
   "version": "1.0.0",
   "description": "Aplicação simples Olá Mundo com Express",
@@ -10,4 +6,18 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ola-mundo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
+}
